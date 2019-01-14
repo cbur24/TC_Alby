@@ -1,9 +1,12 @@
 ; Before running this script, you need to create a text file with the tracks data to
-; be read in
+; be read in. 
 
 ; e.g.
 ; grep ATCF rsl.out.0000 >> cyclone_tracks.txt
 
+; In order to add the observed path of a TC to the plot for comparison with
+; the modelled cyclone, you need to edit a 'best_track.txt' input 
+; file such that it conforms with the slicing done in the "PlotBestTrack" function below.
 ;_______________________________________________________________________________________
 ;To run the script type:
 ;	ncl CreateTracks.ncl {options}
@@ -11,9 +14,9 @@
 ;	e.g.
 ;		ncl CreateTracks.ncl 'inputFILE="track_2005082800_12k"' 'stormNAME="Katrina"'
 ;
-;		ncl CreateTracks.ncl 'inputFILE="files"' 'stormNAME="Katrina"' 'wksTYPE="x11"' \
-;			plotTYPE=3 bestTRACK=True 'btFILE="../BestTrack.Katrina"'              \
-;			'btCOLOR="black"' lonMIN=-92.0
+;		ncl CreateTracks.ncl 'inputFILE="ATCF_track_.txt"' 
+;   'stormNAME="TC Alby"' 'latMIN=-40' 'latMAX=-10' 'lonMIN=95' 'lonMAX=125'
+;   'bestTRACK=True'  'btFILE="alby_bestTrack.csv"'
 ;
 ;_______________________________________________________________________________________
 ;The following options are available
