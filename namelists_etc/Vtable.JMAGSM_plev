@@ -1,0 +1,23 @@
+GRIB1| Level| From |  To  | metgrid  | metgrid | metgrid                                 |
+Param| Type |Level1|Level2| Name     | Units   | Description                             |
+-----+------+------+------+----------+---------+-----------------------------------------+
+  85 |   1  |   0  |      | SOILT000 | K       | T of ground layer                       |
+  225|   1  |   0  |      | SOILM000 | Fraction| Soil moisture of ground layer           |
+  145|   1  |   0  |      | SKINTEMP | K       | Skin temperature                        |
+  52 | 100  |   *  |      | RH       | %       | Relative Humidity                       |
+  11 | 100  |   *  |      | TT       | K       | Temperature                             |
+   6 |   1  |   0  |      | SOILHGT  | m       | Terrain field from source analysis      | 	
+  81 |   1  |   0  |      | LANDSEA  | 0/1 Flag| Land/Sea flag                           |
+  33 | 100  |   *  |      | UU       | m s-1   | U                                       |
+  34 | 100  |   *  |      | VV       | m s-1   | V                                       |	
+   7 | 100  |   *  |      | HGT      | m       | Height                                  |
+  11 | 105  |   2  |      | TT       | K       | Temperature       at 2 m                |
+  52 | 105  |   2  |      | RH       | %       | Relative Humidity at 2 m                | 
+  33 | 105  |  10  |      | UU       | m s-1   | U                 at 10 m               |
+  34 | 105  |  10  |      | VV       | m s-1   | V                 at 10 m               |
+   1 |   1  |   0  |      | PSFC     | Pa      | Surface Pressure                        |
+   2 |   1  |   0  |      | PMSL     | Pa      | Sea-level Pressure                      |
+-----+------+------+------+----------+---------+-----------------------------------------+
+#
+#
+#      Japanese Meteorological Agency Global Spectral Model 
