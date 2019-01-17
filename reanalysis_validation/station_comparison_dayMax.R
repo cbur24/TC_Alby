@@ -3,6 +3,8 @@
 #######################################################
 # This script produces point-to-pixel scatterplots 
 # of daily maximum wind gusts from Jan 1978 to Dec 1978
+# and calculates the Index of Agreement and Mean Absolute
+# Error between the reanalysis data and the station data
 #######################################################
 
 #Script is functioning, but is not robust - requires automating some sections:
