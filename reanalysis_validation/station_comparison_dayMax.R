@@ -7,7 +7,6 @@
 
 #Script is functioning, but is not robust - requires automating some sections:
 #       - Add user inputs section for adding filepaths etc
-#       - Maybe add more statistics functions
 
 #written by Chad Burton, 2/11/2018.
 library(RNetCDF); library(maptools);library(rasterVis); library(viridis); 
