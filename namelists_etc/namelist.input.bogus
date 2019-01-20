@@ -14,7 +14,7 @@
  interval_seconds		     = 21600, 
  history_interval                    = 60, 60, 60,
  frames_per_outfile                  = 1000, 1000, 1000,
- input_from_file                     = .true.,.true.,.true.,
+ input_from_file                     = .true.,.false.,.false.,
  fine_input_stream 		     = 0, 2, 2,
  restart                             = .false.,
  io_form_history                     = 2,
