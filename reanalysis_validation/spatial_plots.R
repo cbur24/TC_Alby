@@ -1,7 +1,14 @@
 
 ###############################################################
-#generating times-slice spatial plots of the reanalysis data
-#to check its ability to recreate TC alby.
+# Generating times-slice plots of the reanalysis data
+# to check its ability to recreate TC alby.  Plotting up 
+# sea-level pressure and maximum 3hrly winds.  Script also
+# produces an animation.
+
+# This script has not been generalised and requires editing if
+# being used for another project.
+
+#writtten by Chad Burton, November 2018
 
 ###############################################################
 
