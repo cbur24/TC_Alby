@@ -22,8 +22,7 @@
  truelat1 = -30.0,
  truelat2 = -60.0,
  stand_lon = 111.893593,
-
-
+ geog_data_path = '/projects/WRF/data/WPS_GEOG'
 /
 
 &ungrib
