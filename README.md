@@ -1,6 +1,6 @@
 # TC_Alby
 
-The Advanced Weather Research and Forecasting (WRF) model was used to simulate Tropical Cyclone Alby. This repo contains the scripts, namelists, and Vtables used to run WRF and post-process the results.  
+The Advanced Weather Research and Forecasting (WRF) model was used to simulate Tropical Cyclone Alby. This repo contains the scripts, namelists, and Vtables used to run WRF and post-process the results.  The jupyter notebooks contain instructions for their use at the top of the script
 
 _namelists_etc_ : contains namelists, Vtables, and shell scripts for running WPS and WRF.
 
