@@ -8,6 +8,8 @@ _reanalysis_validation_ : contains scripts for validating JRA55 as a sensible pr
 
 _CreateTracks.ncl_ : generates a plot that compares IBTrACS cyclone paths against the simulated cyclone path.
 
-_plot_wrf_results.ipynb_ :  Jupyter Notebook that takes as an input a wrfout_do1* file and produces plots demonstrating the evolution of the                           simulated cyclone. 
+_plot_wrfout_d01.ipynb_ :  Jupyter Notebook that takes as an input a wrfout_do1* file and produces plots demonstrating the evolution of the                           simulated cyclone. 
+
+_plot_wrfout_movingNests.ipynb_ :  Jupyter Notebook that takes as an input a nested domain (ie wrfout_d02, wrfout_d03 etc) file and produces plots demonstrating the evolution of the                           simulated cyclone.
 
 _track_comparisons.ipynb_ : Jupyter Notebook that compares IBTrACS cyclone paths against the simulated cyclone path. An alternative to using                           the CreateTracks.ncl script
