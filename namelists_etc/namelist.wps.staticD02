@@ -1,0 +1,37 @@
+&share
+ wrf_core = 'ARW',
+ max_dom = 3,
+ start_date = '1978-04-02_12:00:00','1978-04-02_12:00:00','1978-04-02_12:00:00',
+ end_date   = '1978-04-05_00:00:00','1978-04-05_00:00:00','1978-04-05_00:00:00',
+ interval_seconds = 21600,
+ io_form_geogrid = 2,
+/
+
+&geogrid
+ parent_id         = 0,   1,   2,
+ parent_grid_ratio = 1,   5,   5,
+ j_parent_start    = 1,   79, 437,
+ i_parent_start    = 1,   40,  170,
+ e_we              = 223, 641, 601,
+ e_sn              = 257, 671, 601,
+ dx		   = 25000,
+ dy		   = 25000,
+ map_proj =  'lambert',
+ ref_lat   =  -32.673105,
+ ref_lon   =  111.893593,
+ truelat1 = -30.0,
+ truelat2 = -60.0,
+ stand_lon = 111.893593,
+ geog_data_path = '/projects/WRF/data/WPS_GEOG'
+/
+
+
+&ungrib
+ out_format = 'WPS',
+ prefix = 'sst',
+/
+
+&metgrid
+ fg_name = 'jra', 'sst'
+ io_form_metgrid = 2,
+/
