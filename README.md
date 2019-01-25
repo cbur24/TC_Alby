@@ -5,7 +5,9 @@ The Advanced Weather Research and Forecasting (WRF) model was used to simulate T
 **namelists_etc** : contains namelists, Vtables, and shell scripts for running WPS and WRF, and for initiating the .py scripts
 
 **reanalysis_validation** : contains scripts for validating JRA55 as a sensible product for initializing and providing boundary conditions                           to the WRF model.
+
 **SRC:**
+
 _CreateTracks.ncl_ : generates a plot that compares IBTrACS cyclone paths against the simulated cyclone path.
 
 _plot_wrfout_d01.ipynb_ :  Jupyter Notebook that takes as an input a wrfout_do1* file and produces plots demonstrating the evolution of the                           simulated cyclone. 
