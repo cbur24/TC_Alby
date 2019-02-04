@@ -4,8 +4,23 @@
 # when using the jupyter notebooks versions of this script. It is intended to run on raijin.
 # User should go to the user inputs section and enter all the relevant info.
 
+# If this script is taking too long to run then you may consider splitting the 
+# wrfout_d0* files into individual timesteps and then processing those. Using CDO and a
+# a short shell script will accomplish this:
 
-# This script is written in Jan. 2019 by Chad Burton. The notebook was completed as a part of a graduate program at Geoscience Australia.
+#		 #!/bin/bash
+#		 module load cdo
+#		 cdo showtimestamp my.nc > list.txt
+#		 cdo -splitsel,1 my.nc split_
+
+#		 times=($(cat list.txt))
+
+#		 x=0; for f in $(ls split_*.nc); do mv $f tas_${times[$x]}.nc; let x=$x+1; done
+
+#		 exit 
+
+# This script is written in Jan. 2019 by Chad Burton.
+# The notebook was completed as a part of a graduate program at Geoscience Australia.
 
 #import numpy as np
 import matplotlib
