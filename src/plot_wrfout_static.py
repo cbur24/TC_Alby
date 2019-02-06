@@ -6,7 +6,7 @@
 
 # If this script is taking too long to run then you may consider splitting the 
 # wrfout_d0* files into individual timesteps and then processing those. Using CDO and a
-# a short shell script will accomplish this:
+# a short shell script will accomplish this (change 'my.nc' to your target file):
 
 #		 #!/bin/bash
 #		 module load cdo
